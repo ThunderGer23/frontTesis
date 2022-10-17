@@ -1,5 +1,6 @@
 import './Register.css'
-function Register() {
+
+export const Register = () => {
     return ( 
         <section>
             <div className = "container py-5 vh-100">
@@ -83,4 +84,3 @@ function Register() {
 }
 
 //TODO: Implementar los defaultprops
-export default Register;
