@@ -1,5 +1,6 @@
 import './ForgotPass.css'
-function ForgotPass() {
+
+export const ForgotPass = () => {
     return (
         <section>
             <div className = "container py-5 vh-100">
@@ -71,4 +72,3 @@ function ForgotPass() {
 
 // TODO: Implementar los defaultprops
 // !Preguntar por los class -> className
-export default ForgotPass;

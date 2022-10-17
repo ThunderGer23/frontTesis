@@ -1,6 +1,7 @@
 import './DocumentList.css'
 import {Container,Nav,Navbar} from 'react-bootstrap';
-function DocumentList() {
+
+export const DocumentList=()=> {
     return (  
         <>
         <Navbar bg="light" variant="light">
@@ -18,5 +19,3 @@ function DocumentList() {
         </>
     );
 }
-
-export default DocumentList;

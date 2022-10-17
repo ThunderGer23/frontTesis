@@ -1,7 +1,7 @@
 import './DocumentDetails.css'
 import {Container,Nav,Navbar} from 'react-bootstrap';
 
-function DocumentDetails() {
+export const DocumentDetails =()=> {
     return (
         <>
         <Navbar bg="light" variant="light">
@@ -19,5 +19,3 @@ function DocumentDetails() {
       </>
     );
 }
-
-export default DocumentDetails;

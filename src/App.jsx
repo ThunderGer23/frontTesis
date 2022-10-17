@@ -4,16 +4,16 @@ import {
   Routes,
   Route,
 } from "react-router-dom";
-import AboutUs from "./components/AboutUs/AboutUs";
-import DocumentDetails from "./components/DocumentDetails/DocumentDetails";
-import DocumentList from "./components/DocumentList/DocumentList";
-import NavBar from './components/NavBar'
-import Profile from "./components/Profile/Profile";
-import Register from "./components/Register/Register";
-import Login from "./components/Login/Login";
-import NoPage from "./components/NoPage/NoPage";
-import Footer from "./components/Footer/Footer";
-import ForgotPass from "./components/ForgotPass/ForgotPass";
+import {
+  AboutUs,
+  DocumentDetails,
+  DocumentList,
+  Footer,
+  ForgotPass,
+  NoPage,
+  Profile,
+  Register
+} from './components'
 const root = ReactDOM.createRoot(
   document.getElementById("root")
 );
