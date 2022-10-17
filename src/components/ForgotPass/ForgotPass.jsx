@@ -30,12 +30,6 @@ export const ForgotPass = () => {
                                                             Siguiente
                                                         </button>
                                                     </div>
-                                                    {/* <div className = "text-center pt-1 mb-1">
-                                                        <p><a className = "">Registrarse</a></p>
-                                                    </div>
-                                                    <div className = "d-flex align-items-center justify-content-center">
-                                                        <a className = "">¿Olvido su contraseña?</a>
-                                                    </div> */}
                                                 </div>
                                             </div>
                                         </div>
@@ -64,7 +58,6 @@ export const ForgotPass = () => {
                         </div>
                     </div>
                 </div>
-                {/* modals */}
             </div>
         </section>
     );
