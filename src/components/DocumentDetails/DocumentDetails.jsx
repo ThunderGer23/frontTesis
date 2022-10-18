@@ -7,7 +7,7 @@ export const DocumentDetails =()=> {
         <Navbar bg="light" variant="light">
           <Container>
           <Navbar.Brand href="#home">
-                <img className='logo-header' src="/public/img/mq19.png" alt="" />
+                <img className='logo-header' src="./img/mq19.png" alt="" />
             </Navbar.Brand>
             <Nav className="justify-content-end">
               <Nav.Link href="#home">Home</Nav.Link>
