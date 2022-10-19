@@ -1,5 +1,6 @@
 import './ForgotPass.css'
-function ForgotPass() {
+
+export const ForgotPass = () => {
     return (
         <section>
             <div className = "container py-5 vh-100">
@@ -29,12 +30,6 @@ function ForgotPass() {
                                                             Siguiente
                                                         </button>
                                                     </div>
-                                                    {/* <div className = "text-center pt-1 mb-1">
-                                                        <p><a className = "">Registrarse</a></p>
-                                                    </div>
-                                                    <div className = "d-flex align-items-center justify-content-center">
-                                                        <a className = "">¿Olvido su contraseña?</a>
-                                                    </div> */}
                                                 </div>
                                             </div>
                                         </div>
@@ -63,7 +58,6 @@ function ForgotPass() {
                         </div>
                     </div>
                 </div>
-                {/* modals */}
             </div>
         </section>
     );
@@ -71,4 +65,3 @@ function ForgotPass() {
 
 // TODO: Implementar los defaultprops
 // !Preguntar por los class -> className
-export default ForgotPass;

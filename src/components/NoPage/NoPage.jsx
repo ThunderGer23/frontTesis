@@ -1,4 +1,5 @@
-function NoPage() {
+
+export const NoPage = () => {
     return ( 
         <section>
             <div className="container py-5 vh-100">
@@ -20,5 +21,3 @@ function NoPage() {
         </section>
      );
 }
-
-export default NoPage;

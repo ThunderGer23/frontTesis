@@ -1,5 +1,6 @@
 import {Link} from 'react-router-dom'
-function NavBar() {
+
+export const NavBar = () => {
     return ( 
         <>
         <ul className='nav nav-tabs' id="navId" role="tablist">
@@ -12,12 +13,12 @@ function NavBar() {
                 <li className='nav-item'><Link className='nav-link' to="/about">About Us</Link> </li>
         </ul>
                 
-        <div class="tab-content" id="myTabContent">
-            <div class="tab-pane fade show active" id="tab1Id" role="tabpanel"></div>
-            <div class="tab-pane fade" id="tab2Id" role="tabpanel"></div>
-            <div class="tab-pane fade" id="tab3Id" role="tabpanel"></div>
-            <div class="tab-pane fade" id="tab4Id" role="tabpanel"></div>
-            <div class="tab-pane fade" id="tab5Id" role="tabpanel"></div>
+        <div className="tab-content" id="myTabContent">
+            <div className="tab-pane fade show active" id="tab1Id" role="tabpanel"></div>
+            <div className="tab-pane fade" id="tab2Id" role="tabpanel"></div>
+            <div className="tab-pane fade" id="tab3Id" role="tabpanel"></div>
+            <div className="tab-pane fade" id="tab4Id" role="tabpanel"></div>
+            <div className="tab-pane fade" id="tab5Id" role="tabpanel"></div>
         </div>
         
         <script>
@@ -28,5 +29,3 @@ function NavBar() {
         
      );
 }
-
-export default NavBar;

@@ -1,5 +1,6 @@
 import './Profile.css'
-function Profile() {
+
+export const Profile = () => {
     return (
         <section>
             <div className="container py-5 vh-100">
@@ -88,4 +89,3 @@ function Profile() {
 
 // TODO: Implementar los defaultprops
 // !Preguntar por los class -> className
-export default Profile;

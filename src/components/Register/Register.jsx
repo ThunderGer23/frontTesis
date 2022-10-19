@@ -1,5 +1,6 @@
 import './Register.css'
-function Register() {
+
+export const Register = () => {
     return ( 
         <section>
             <div className = "container py-5 vh-100">
@@ -43,13 +44,7 @@ function Register() {
                                                             <i className="fa fa-right-to-bracket orange"></i>
                                                             Siguiente
                                                         </button>
-                                                    </div>
-                                                    {/* <div className        ="text-center pt-1 mb-1">
-                                                        <p><a className       = "">Registrarse</a></p>
-                                                    </div>
-                                                    <div className            = "d-flex align-items-center justify-content-center">
-                                                        <a className          = "">¿Olvido su contraseña?</a>
-                                                    </div> */}
+                                                    </div>                                                    
                                                 </div>
                                             </div>
                                         </div>                                        
@@ -83,4 +78,3 @@ function Register() {
 }
 
 //TODO: Implementar los defaultprops
-export default Register;

@@ -1,4 +1,5 @@
-function Footer() {
+
+export const Footer = () =>{
     return (  
             <div className="d-flex align-items-end justify-content-end pe-4 ">
                     <div className="">
@@ -16,4 +17,3 @@ function Footer() {
 
 // TODO: Implementar los defaultprops
 // !Preguntar por los class -> className
-export default Footer;

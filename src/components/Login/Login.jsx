@@ -1,5 +1,6 @@
 import './Login.css'
-function Login() {
+
+export const Login =() => {
     return (  
         <section className="vh-100 bg-gradient">
             <div className="container py-5 vh-100">
@@ -26,7 +27,7 @@ function Login() {
                                                             <span className="input-group-text" id="basic-addon2">
                                                                 <i className="fa-regular fa-at" style={{color:'white'}}></i>
                                                             </span>
-                                                            <input type="email" class="form-control" placeholder="email:" aria-label="Username" aria-describedby="basic-addon2"/>
+                                                            <input type="email" className="form-control" placeholder="email:" aria-label="Username" aria-describedby="basic-addon2"/>
                                                         </div>
                                                     </form>
                                                     <div className="d-grid gap-2 mb-4">
@@ -84,4 +85,3 @@ function Login() {
 
 // TODO: Implementar los defaultprops
 // !Preguntar por los class -> className
-export default Login;
