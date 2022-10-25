@@ -1,5 +1,6 @@
 import './Login.css'
 import {Forms} from '../Forms/Forms'
+import {Boton} from '../Boton/Boton'
 
 export const Login =() => {
     return (  
@@ -19,10 +20,7 @@ export const Login =() => {
                                                 <div>
                                                     <Forms/>
                                                     <div className="d-grid gap-2 mb-4">
-                                                        <button className="btn btn-light" type="button">
-                                                            <i className="fa fa-right-to-bracket orange"></i>
-                                                            Siguiente
-                                                        </button>
+                                                        <Boton texto="Siguiente"/>
                                                     </div>
                                                     <div className="text-center pt-1 mb-1">
                                                         <p><a className="">Registrarse</a></p>
