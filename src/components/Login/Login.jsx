@@ -1,6 +1,7 @@
 import './Login.css'
 import {Forms} from '../Forms/Forms'
 import {Boton} from '../Boton/Boton'
+import { Enlace } from '../Enlace/Enlace'
 
 export const Login =() => {
     return (  
@@ -23,10 +24,10 @@ export const Login =() => {
                                                         <Boton texto="Siguiente"/>
                                                     </div>
                                                     <div className="text-center pt-1 mb-1">
-                                                        <p><a className="">Registrarse</a></p>
+                                                        <Enlace texto="Registrarse"/>
                                                     </div>
                                                     <div className="d-flex align-items-center justify-content-center">
-                                                        <a className="">¿Olvido su contraseña?</a>
+                                                        <Enlace texto="¿Olvido su contraseña?"/>
                                                     </div>
                                                 </div>
                                             </div>
