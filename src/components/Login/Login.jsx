@@ -1,4 +1,5 @@
 import './Login.css'
+import {Forms} from '../Forms/Forms'
 
 export const Login =() => {
     return (  
@@ -16,20 +17,7 @@ export const Login =() => {
                                                     <img className="logo" src="./img/mq19.png" alt="" style={{width:'7rem'}}/>
                                                 </div>
                                                 <div>
-                                                    <form action="" className="bt-4">
-                                                        <div className="input-group mb-4">
-                                                            <span className="input-group-text" id="basic-addon1">
-                                                                <i className="fa-regular fa-user" style={{color:'white'}}></i>
-                                                            </span>
-                                                            <input type="text" className="form-control" placeholder="usuario:" aria-label="Username" aria-describedby="basic-addon1"/>
-                                                        </div>
-                                                        <div className="input-group mb-4">
-                                                            <span className="input-group-text" id="basic-addon2">
-                                                                <i className="fa-regular fa-at" style={{color:'white'}}></i>
-                                                            </span>
-                                                            <input type="email" className="form-control" placeholder="email:" aria-label="Username" aria-describedby="basic-addon2"/>
-                                                        </div>
-                                                    </form>
+                                                    <Forms/>
                                                     <div className="d-grid gap-2 mb-4">
                                                         <button className="btn btn-light" type="button">
                                                             <i className="fa fa-right-to-bracket orange"></i>
