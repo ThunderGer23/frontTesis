@@ -1,6 +1,8 @@
 import './Login.css'
-import {Forms} from '../Forms/Forms'
-import {Imagenes} from '../Imagenes/Imagenes'
+import { Forms } from '../Forms/Forms'
+import { Imagenes } from '../Imagenes/Imagenes'
+import { Imagen } from '../Imagen/Imagen'
+import { CardBody } from '../CardBody/CardBody'
 
 export const Login =() => {
     return (  
@@ -14,12 +16,8 @@ export const Login =() => {
                                     <div className="p-md-5 mx-md-4">
                                         <div className="card shadow p-3 mb-5 rounded-5 bg-login-form">
                                             <div className="car-body p-md-5 mx-md-4">
-                                                <div className="text-center mb-5">
-                                                    <img className="logo" src="./img/mq19.png" alt="" style={{width:'7rem'}}/>
-                                                </div>
-                                                <div>
-                                                    <Forms/>
-                                                </div>
+                                                <Imagen cName="text-center mb-5" direction="./img/mq19.png"/>
+                                                <Forms/>
                                             </div>
                                         </div>
                                     </div>    
@@ -35,12 +33,13 @@ export const Login =() => {
                                                 </ul>
                                             </div>
                                             <div className="card hover-other message-login">
-                                                <div className=" card-body">
+                                                <CardBody cName="card-body" title="Bienvenido a Athenea" text="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt voluptatem, harum amet fuga aperiam rerum in aspernatur, aut reprehenderit impedit totam dicta eos officia cupiditate. Earum quaerat eum pariatur laudantium."/>
+                                                {/*<div className=" card-body">
                                                     <h3>Bienvenido a Athenea</h3>
                                                     <p>
                                                         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt voluptatem, harum amet fuga aperiam rerum in aspernatur, aut reprehenderit impedit totam dicta eos officia cupiditate. Earum quaerat eum pariatur laudantium.
                                                     </p>
-                                                </div>
+                                                </div>*/}
                                             </div>
                                         </div>
                                     </div>
