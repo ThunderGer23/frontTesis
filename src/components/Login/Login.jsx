@@ -1,7 +1,5 @@
 import './Login.css'
 import {Forms} from '../Forms/Forms'
-import {Boton} from '../Boton/Boton'
-import { Enlace } from '../Enlace/Enlace'
 import {Imagenes} from '../Imagenes/Imagenes'
 
 export const Login =() => {
@@ -21,15 +19,6 @@ export const Login =() => {
                                                 </div>
                                                 <div>
                                                     <Forms/>
-                                                    <div className="d-grid gap-2 mb-4">
-                                                        <Boton texto="Siguiente"/>
-                                                    </div>
-                                                    <div className="text-center pt-1 mb-1">
-                                                        <Enlace texto="Registrarse"/>
-                                                    </div>
-                                                    <div className="d-flex align-items-center justify-content-center">
-                                                        <Enlace texto="¿Olvido su contraseña?"/>
-                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -40,14 +29,6 @@ export const Login =() => {
                                         <div className="px-3 py-4 p-md-4">
                                             <div>
                                                 <ul className="nav justify-content-center">
-                                                    {/*<li className="nav-item">
-                                                        <img className="img-fluid" width="140" src="./img/mq16.png" alt="" /></li>
-                                                    
-                                                    <li className="nav-item">
-                                                        <img className="img-fluid" width="140" src="./img/mq17.png" alt="" />
-                                                    </li>
-                                                    <li className="nav-item">
-                                                        <img className="img-fluid" width="140" src="./img/mq18.png" alt="" /></li>*/}
                                                     <Imagenes direction="./img/mq16.png"/>
                                                     <Imagenes direction="./img/mq17.png"/>
                                                     <Imagenes direction="./img/mq18.png"/>

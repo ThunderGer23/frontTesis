@@ -1,3 +1,6 @@
+import {Boton} from '../Boton/Boton'
+import { Enlace } from '../Enlace/Enlace'
+
 export const Forms =()=>{
     return (
         <>
@@ -15,6 +18,9 @@ export const Forms =()=>{
                 <input type="email" className="form-control" placeholder="email:" aria-label="Username" aria-describedby="basic-addon2"/>
             </div>
         </form>
+        <Boton texto="Siguiente"/>
+        <Enlace cName="text-center pt-1 mb-1" texto="Registrarse"/>
+        <Enlace cName="d-flex align-items-center justify-content-center" texto="¿Olvido su contraseña?"/>
     </>
     );
 };

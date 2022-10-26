@@ -1,7 +1,9 @@
 export const Enlace = (props) =>{
     return (
         <>
-        <p><a className="">{props.texto}</a></p>
+        <div className={props.cName}>
+            <p><a className="">{props.texto}</a></p>
+        </div>
         </>
     );
 }
