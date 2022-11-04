@@ -34,12 +34,6 @@ export const Login =() => {
                                             </div>
                                             <div className="card hover-other message-login">
                                                 <CardBody cName="card-body" title="Bienvenido a Athenea" text="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt voluptatem, harum amet fuga aperiam rerum in aspernatur, aut reprehenderit impedit totam dicta eos officia cupiditate. Earum quaerat eum pariatur laudantium."/>
-                                                {/*<div className=" card-body">
-                                                    <h3>Bienvenido a Athenea</h3>
-                                                    <p>
-                                                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt voluptatem, harum amet fuga aperiam rerum in aspernatur, aut reprehenderit impedit totam dicta eos officia cupiditate. Earum quaerat eum pariatur laudantium.
-                                                    </p>
-                                                </div>*/}
                                             </div>
                                         </div>
                                     </div>
