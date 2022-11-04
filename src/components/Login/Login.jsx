@@ -1,8 +1,5 @@
 import './Login.css'
-import { Forms } from '../Forms/Forms'
-import { Imagenes } from '../Imagenes/Imagenes'
-import { Imagen } from '../Imagen/Imagen'
-import { CardBody } from '../CardBody/CardBody'
+import {Imagen, Imagenes, Forms, CardBody} from '../'
 
 export const Login =() => {
     return (  
