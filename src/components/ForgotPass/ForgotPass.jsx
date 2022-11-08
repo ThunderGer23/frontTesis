@@ -14,9 +14,6 @@ export const ForgotPass = () => {
                                         <div className = "card shadow p-3 mb-5 rounded-5 bg-forgotpass-form">
                                             <div className = "car-body p-md-5 mx-md-4">
                                                 <EnlaceH cName="text-center mb-5" hrf="#" texto="Correo:"/>
-                                                {/*<div className = "text-center mb-5">
-                                                    <h3><a href = "#">Correo:</a></h3>
-                                                </div>*/}
                                                 <div>
                                                     <form action = "" className="bt-4">
                                                         <div className = "input-group mb-5">
