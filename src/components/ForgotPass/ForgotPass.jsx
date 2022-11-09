@@ -1,6 +1,8 @@
 import { BotonPass } from '../Boton/Boton';
+import { CardBody } from '../CardBody/CardBody';
 import {EnlaceH } from '../Enlace/Enlace';
 import { FormsPass } from '../Forms/Forms';
+import { Imagen } from '../Imagen/Imagen';
 import './ForgotPass.css'
 
 export const ForgotPass = () => {
@@ -43,15 +45,18 @@ export const ForgotPass = () => {
                                 <div className = "col-lg-6 d-flex align-items-center">
                                     <div>
                                         <div className = "px-3 py-4 p-md-4">
-                                            <div className = "text-center mb-2">
-                                                Descuida!        
+                                        Descuida!
+                                        <Imagen cName="text-center mb-2" direction="./img/mq19.png"/>
+                                            {/*<div className = "text-center mb-2">        
                                                 <img className = "logo" src="./img/mq19.png" alt="" style={{ width: '7rem' }} />
-                                            </div>
+                                            </div>*/}
 
-                                            <h3>Bienvenido</h3>
+                                        <CardBody cName="card-body" title="Bienvenido" text="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt voluptatem, harum amet fuga aperiam rerum in aspernatur, aut reprehenderit impedit totam dicta eos officia cupiditate. Earum quaerat eum pariatur laudantium."/>
+
+                                            {/*<h3>Bienvenido</h3>
                                             <p>
                                                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt voluptatem, harum amet fuga aperiam rerum in aspernatur, aut reprehenderit impedit totam dicta eos officia cupiditate. Earum quaerat eum pariatur laudantium.
-                                            </p>
+                                            </p>*/}
                                             <p>
                                                 <img src = "./icons/document.png" width="45" />
                                                 Politicas de privacidad
