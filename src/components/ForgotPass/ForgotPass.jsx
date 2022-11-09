@@ -1,3 +1,4 @@
+import { BotonPass } from '../Boton/Boton';
 import {EnlaceH } from '../Enlace/Enlace';
 import { FormsPass } from '../Forms/Forms';
 import './ForgotPass.css'
@@ -26,12 +27,15 @@ export const ForgotPass = () => {
                                                         </div>
                                                     </form>
                                                 </div>*/}
-                                                    <div className = "d-grid gap-2 mb-3 mt-5">
+
+                                                <BotonPass cName="d-grid gap-2 mb-3 mt-5" cNameButton="btn btn-light" Tpe="button" DatB_Toggle="modal" DatB_Target="#exampleModalCenter" cNameI="fa fa-right-to-bracket orange" texto="Siguiente"/>
+
+                                                    {/*<div className = "d-grid gap-2 mb-3 mt-5">
                                                         <button className = "btn btn-light" type="button"  data-bs-toggle="modal" data-bs-target="#exampleModalCenter">
                                                             <i className="fa fa-right-to-bracket orange"></i>
                                                             Siguiente
                                                         </button>
-                                                    </div>
+                                            </div>*/}
                                             </div>
                                         </div>
                                     </div>

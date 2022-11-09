@@ -17,7 +17,7 @@ export const Login =() => {
                                             <div className="car-body p-md-5 mx-md-4">
                                                 <Imagen cName="text-center mb-5" direction="./img/mq19.png"/>
                                                 <Forms/>
-                                                <Boton texto="Siguiente"/>
+                                                <Boton cNAme="d-grid gap-2 mb-4" cNameButton="btn btn-light" Tpe="Button" cNameI="fa fa-right-to-bracket orange" texto="Siguiente"/>
                                                 <Enlace cName="text-center pt-1 mb-1" texto="Registrarse"/>
                                                 <Enlace cName="d-flex align-items-center justify-content-center" texto="¿Olvido su contraseña?"/>
                                             </div>
