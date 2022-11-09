@@ -3,13 +3,13 @@ import './ForgotPass.css'
 
 export const ForgotPass = () => {
     return (
-        <section>
+        <section className="vh-100 bg-gradient">
             <div className = "container py-5 vh-100">
                 <div className = "row d-flex justify-content-center align-items-lg-center vh-100">
                     <div className = "col-lx-10">
                         <div className = "rounded-3 text-black">
                             <div className = "row g-0">
-                                <div className = "col-lg-6 p-4">
+                                <div className = "col-lg-6">
                                     <div className = "p-md-5 mx-md-4">
                                         <div className = "card shadow p-3 mb-5 rounded-5 bg-forgotpass-form">
                                             <div className = "car-body p-md-5 mx-md-4">
