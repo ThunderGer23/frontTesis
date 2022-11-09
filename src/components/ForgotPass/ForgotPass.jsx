@@ -1,4 +1,5 @@
 import {EnlaceH } from '../Enlace/Enlace';
+import { FormsPass } from '../Forms/Forms';
 import './ForgotPass.css'
 
 export const ForgotPass = () => {
@@ -14,7 +15,8 @@ export const ForgotPass = () => {
                                         <div className = "card shadow p-3 mb-5 rounded-5 bg-forgotpass-form">
                                             <div className = "car-body p-md-5 mx-md-4">
                                                 <EnlaceH cName="text-center mb-5" hrf="#" texto="Correo:"/>
-                                                <div>
+                                                <FormsPass/>
+                                                {/*<div>
                                                     <form action = "" className="bt-4">
                                                         <div className = "input-group mb-5">
                                                             <span className = "input-group-text" id="basic-addon2">
@@ -23,13 +25,13 @@ export const ForgotPass = () => {
                                                             <input type = "email" className="form-control" placeholder="email:" aria-label="Username" aria-describedby="basic-addon2"/>
                                                         </div>
                                                     </form>
+                                                </div>*/}
                                                     <div className = "d-grid gap-2 mb-3 mt-5">
                                                         <button className = "btn btn-light" type="button"  data-bs-toggle="modal" data-bs-target="#exampleModalCenter">
                                                             <i className="fa fa-right-to-bracket orange"></i>
                                                             Siguiente
                                                         </button>
                                                     </div>
-                                                </div>
                                             </div>
                                         </div>
                                     </div>

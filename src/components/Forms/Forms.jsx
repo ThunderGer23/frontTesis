@@ -12,3 +12,15 @@ export const Forms =()=>{
     </>
     );
 };
+
+export const FormsPass = () =>{
+    return(
+        <>
+        <div>
+            <form action="" className="bt-4">
+                <Inpt cNameDiv="input-group mb-5" cNameSpan="input-group-text" IdSpan="basic-addon2" cNameI="fa-regular fa-at" Stle={{color: 'white'}} ITyp="email" cNameInput="form-control" PHolder="email:" Ar_lbl="Username" Ar_Desc="basic-addon2"/>
+            </form>
+        </div>
+        </>
+    );
+};
